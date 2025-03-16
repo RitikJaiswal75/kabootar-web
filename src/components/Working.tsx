@@ -39,6 +39,19 @@ const Working = () => {
           <span className="font-bold"> Enjoy hassle-free sharing </span>
           <span>without worrying about installation on the sender's side.</span>
         </li>
+        <li className="text-lg border-b-gray-800 border-b-2 py-2">
+          <i className="ri-file-add-line text-3xl">&nbsp;</i>
+          <span>Checkout how to install</span>
+          <span className="font-bold">
+            <a
+              href="https://github.com/RitikJaiswal75/kabootar/releases/tag/v0"
+              target="_blank"
+            >
+              here
+            </a>
+            .
+          </span>
+        </li>
       </ul>
     </section>
   );
