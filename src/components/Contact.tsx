@@ -16,8 +16,7 @@ const Contact = () => {
       >
         GitHub repository
       </a>
-      . Does this look good for your site, or would you like any further
-      adjustments?
+      .
     </section>
   );
 };
