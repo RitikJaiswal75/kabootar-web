@@ -9,7 +9,11 @@ const Contact = () => {
         kabootar@ritik.cc
       </a>{" "}
       or visit our{" "}
-      <a href="" target="_blank" className="text-emerald-400 underline">
+      <a
+        href="https://github.com/RitikJaiswal75/kabootar"
+        target="_blank"
+        className="text-emerald-400 underline"
+      >
         GitHub repository
       </a>
       . Does this look good for your site, or would you like any further
