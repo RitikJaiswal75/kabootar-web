@@ -44,7 +44,7 @@ const Working = () => {
           <span> Checkout how to install </span>
           <span className="font-bold">
             <a
-              href="https://github.com/RitikJaiswal75/kabootar/releases/tag/v0"
+              href="https://github.com/RitikJaiswal75/kabootar/releases/latest"
               target="_blank"
               className="text-emerald-500"
             >

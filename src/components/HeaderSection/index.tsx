@@ -21,7 +21,8 @@ const HeaderSection = () => {
         </h2>
         <div className="flex gap-12">
           <a
-            href="https://github.com/RitikJaiswal75/kabootar/releases/download/v0/kabootar.zip"
+            href="https://github.com/RitikJaiswal75/kabootar/releases/latest"
+            target="_blank"
             className="hover:bg-emerald-600 font-bold text-sm sm:text-lg p-4 rounded-xl w-[max-content] text-center border-2 border-emerald-600 hover:shadow-lg shadow-amber-200 transition-all duration-100"
           >
             Download
