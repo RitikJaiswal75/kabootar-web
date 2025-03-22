@@ -1,4 +1,5 @@
 import logo from "../../assets/logo.png";
+import { motion } from "motion/react";
 
 const HeaderSection = () => {
   return (
@@ -20,20 +21,24 @@ const HeaderSection = () => {
           installation on the sender's device. Fast, secure, and ad-free.
         </h2>
         <div className="flex gap-12">
-          <a
+          <motion.a
+            className="hover:bg-emerald-600 font-bold text-sm sm:text-lg p-4 rounded-xl w-[max-content] text-center border-2 border-emerald-600 hover:shadow-lg  shadow-amber-500 transition-all duration-100"
             href="https://github.com/RitikJaiswal75/kabootar/releases/latest"
             target="_blank"
-            className="hover:bg-emerald-600 font-bold text-sm sm:text-lg p-4 rounded-xl w-[max-content] text-center border-2 border-emerald-600 hover:shadow-lg shadow-amber-200 transition-all duration-100"
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
           >
             Download
-          </a>
-          <a
+          </motion.a>
+          <motion.a
             href="https://github.com/RitikJaiswal75/kabootar"
-            className="hover:bg-emerald-600 font-bold text-sm sm:text-lg py-4 px-6 rounded-xl w-[max-content] text-center flex gap-2 items-center border-2 border-emerald-600 hover:shadow-lg shadow-amber-200 transition-all duration-100"
+            className="hover:bg-emerald-600 font-bold text-sm sm:text-lg py-4 px-6 rounded-xl w-[max-content] text-center flex gap-2 items-center border-2 border-emerald-600 hover:shadow-lg shadow-amber-500 transition-all duration-100"
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
           >
             <i className="ri-github-fill"></i>
             Github
-          </a>
+          </motion.a>
         </div>
       </div>
     </header>
