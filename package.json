@@ -13,10 +13,12 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.0.14",
     "axios": "^1.8.3",
+    "blurhash": "^2.0.5",
     "fs-extra": "^11.3.0",
     "motion": "^12.5.0",
     "puppeteer": "^24.4.0",
     "react": "^19.0.0",
+    "react-blurhash": "^0.3.0",
     "react-dom": "^19.0.0",
     "remixicon": "^4.6.0",
     "tailwindcss": "^4.0.14"

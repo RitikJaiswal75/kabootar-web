@@ -1,14 +1,36 @@
+import { useEffect, useState } from "react";
 import logo from "../../assets/logo.webp";
 import { motion } from "motion/react";
+import { Blurhash } from "react-blurhash";
 
 const HeaderSection = () => {
+  const [imageLoaded, setImageLoaded] = useState(false);
+  useEffect(() => {
+    const image = new Image();
+    image.src = logo;
+    image.onload = () => {
+      setImageLoaded(true);
+    };
+  }, []);
   return (
     <header className="flex flex-col sm:flex-row gap-12 items-center justify-center">
-      <img
-        src={logo}
-        alt="logo"
-        className="w-40 h-40 rounded-xl shadow-xl shadow-emerald-700 hover:shadow-amber-500"
-      />
+      {imageLoaded ? (
+        <img
+          src={logo}
+          onLoad={() => setImageLoaded(true)}
+          alt="logo"
+          className="w-40 h-40 rounded-xl shadow-xl shadow-emerald-700 hover:shadow-amber-500"
+        />
+      ) : (
+        <Blurhash
+          hash="LCBN1iIU00%M?bM{M{xu00xu~qIU"
+          width={160}
+          height={160}
+          resolutionX={10}
+          resolutionY={10}
+          className="shadow-xl shadow-emerald-700 hover:shadow-amber-500"
+        />
+      )}
       <div className="flex flex-col gap-4 justify-center items-center">
         <h1 className="font-bold text-2xl sm:text-4xl">
           Kab👀tar |{" "}
