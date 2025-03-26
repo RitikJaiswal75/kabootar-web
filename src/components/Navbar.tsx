@@ -1,5 +1,5 @@
 import { motion, useScroll } from "motion/react";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.webp";
 
 const Navbar = () => {
   const { scrollYProgress } = useScroll();
