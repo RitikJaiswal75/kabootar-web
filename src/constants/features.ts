@@ -31,6 +31,6 @@ export const features = [
   {
     point: "Cross-Device Support",
     description:
-      "Share files seamlessly between mobile devices, PCs, iOS, and macOS. Kabootar makes it effortless to transfer files to and from iOS and macOS devices as well.",
+      "Share files seamlessly between mobile devices, PCs, iOS, and macOS.",
   },
 ];
