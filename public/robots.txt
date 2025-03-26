@@ -1,0 +1,5 @@
+# Allow all public pages
+Allow: /
+
+# Sitemap
+Sitemap: https://kabootar.ritik.cc/sitemap.xml
